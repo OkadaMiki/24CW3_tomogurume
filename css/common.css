@@ -1,0 +1,19 @@
+:root{
+    --base-color: #dbdbdb;
+    --font-color: #393939;
+    --red: #C4473F;
+    --orange: #F3901D;
+    --beige: #F8CE81;
+    --gray: #666666;
+}
+
+html{
+    font-size: 62.5%;
+}
+html,body{
+    width: 390px;
+    height: 100%;
+}
+body{
+    font-family: "Zen Maru Gothic", serif;
+}

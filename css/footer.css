@@ -1,0 +1,31 @@
+footer{
+    width: 100%;
+    height: 64px;
+    margin-bottom: 34px;
+    background: var(--beige);
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    li{
+        width: 20%;
+        height: 100%;
+        a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            padding: 11px 0 3px;
+            text-align: center;
+            font-size: 1.2rem;
+            &:link{
+                text-decoration: none;
+                color: var(--font-color);
+            }
+            &:visited{
+                color: var(--font-color);
+            }
+        }
+    }
+}
