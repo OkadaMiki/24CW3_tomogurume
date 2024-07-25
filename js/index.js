@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("いけてんのか？");
     const reviewsContainer = document.getElementById("reviewsContainer");
     const reviews = JSON.parse(localStorage.getItem("reviews")) || [];
 
