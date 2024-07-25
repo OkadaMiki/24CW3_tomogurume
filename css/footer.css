@@ -16,15 +16,16 @@ footer ul{
             display: inline-block;
             width: 100%;
             height: 100%;
-            padding: 11px 0 3px;
+            padding-top: 11px;
             text-align: center;
             font-size: 1.2rem;
+            line-height: 1.6rem;
             &:link{
                 text-decoration: none;
-                color: var(--font-color);
+                color: var(--font);
             }
             &:visited{
-                color: var(--font-color);
+                color: var(--font);
             }
         }
     }

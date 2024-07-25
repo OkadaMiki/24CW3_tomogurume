@@ -18,36 +18,55 @@
 <body>
     <div class="container">
         <main>
-            <h1>aaa</h1>
+            <h1>口コミ投稿</h1>
+            <form class="reviewForm">
+                <label for="placeName">場所:</label>
+                <br>
+                <input type="text" id="placeName" name="placeName" required>
+                <br>
+                <label for="userName">一緒に行った人:</label>
+                <br>
+                <input type="text" id="userName" name="userName">
+                <br>
+                <label for="images">画像:</label>
+                <input type="file" id="images" name="images" accept="img/*" multiple required>
+                <br>
+                <div id="previewContainer"></div>
+                <label for="review">口コミ:</label>
+                <br>
+                <textarea id="review" name="review" required></textarea>
+                <br>
+                <button type="submit">送信</button>
+            </form>
         </main>
         <footer>
             <ul>
                 <li>
-                    <a href="map.html">
+                    <a class="foot_map" href="map.html">
                         <div><img src="img/MapPinLine.svg" alt=""></div>
                         <p>マップ</p>
                     </a>
                 </li>
                 <li>
-                    <a href="posting.html">
+                    <a class="foot_post" href="posting.html">
                         <div><img src="img/Plus_color.svg" alt=""></div>
                         <p>投稿</p>
                     </a>
                 </li>
                 <li>
-                    <a href="index.html">
+                    <a class="foot_comment" href="index.html">
                         <div><img src="img/ChatCenteredDots.svg" alt=""></div>
                         <p>口コミ</p>
                     </a>
                 </li>
                 <li>
-                    <a href="quest.html">
+                    <a class="foot_quest" href="quest.html">
                         <div><img src="img/BookBookmark.svg" alt=""></div>
                         <p>クエスト</p>
                     </a>
                 </li>
                 <li>
-                    <a href="user.html">
+                    <a class="foot_user" href="user.html">
                         <div><img src="img/User.svg" alt=""></div>
                         <p>ユーザー</p>
                     </a>
@@ -55,7 +74,7 @@
             </ul>
         </footer>
     </div>
-    <script src="/js/index.js"></script>
+    <script src="js/posting.js"></script>
 </body>
 
 </html>

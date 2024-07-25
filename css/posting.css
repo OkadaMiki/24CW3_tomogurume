@@ -1,4 +1,48 @@
+
 main{
     width: 100%;
-    height: calc(100vh - 64px - 34px);
+    height: calc(100vh - 64px);
+    h1{
+        text-align: center;
+        padding-top: 32px;
+    }
+    form{
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 24px;
+        font-size: 1.6rem;
+        label{
+            margin-bottom: 8px;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 24px;
+            border-radius: 10px;
+            border: solid 1px var(--gray);
+        }
+        #images{
+            border: none;
+        }
+        textarea{
+            width: 100%;
+            height: 7rem;
+            margin: 0 auto 16px;
+            border-radius: 10px;
+            border: solid 1px var(--gray);
+        }
+        button{
+            padding: 8px 16px;
+            border-radius: 24px;
+            background: var(--orange);
+            
+        }
+    }
+}
+.preview-image {
+    max-width: 100px;
+    margin: 5px;
+}
+
+.foot_post p{
+    font-weight: 500;
 }

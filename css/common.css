@@ -1,6 +1,6 @@
 :root{
-    --base-color: #dbdbdb;
-    --font-color: #393939;
+    --base: #dbdbdb;
+    --font: #393939;
     --red: #C4473F;
     --orange: #F3901D;
     --beige: #F8CE81;
@@ -16,4 +16,6 @@ html,body{
 }
 body{
     font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    color: var(--font);
 }
