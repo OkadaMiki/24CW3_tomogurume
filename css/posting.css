@@ -1,7 +1,7 @@
 
 main{
     width: 100%;
-    height: calc(100vh - 64px);
+    height: calc(100vh - 64px - 20px);
     h1{
         text-align: center;
         padding-top: 32px;
@@ -16,6 +16,7 @@ main{
         }
         input{
             width: 100%;
+            /* height: 150%; */
             margin-bottom: 24px;
             border-radius: 10px;
             border: solid 1px var(--gray);
