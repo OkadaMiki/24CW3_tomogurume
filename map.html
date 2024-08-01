@@ -18,10 +18,11 @@
 <body>
     <div class="container">
         <main>
-            <iframe
+            <div id="map"></div>
+            <!-- <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5644.419913875495!2d135.50647123541776!3d34.708275157905355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69596746457%3A0x95eeaad5e6142bd2!2z5Lit5bSO55S66aeF!5e0!3m2!1sja!2sjp!4v1721832102145!5m2!1sja!2sjp"
                 style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
         </main>
         <footer>
             <ul>
@@ -58,7 +59,9 @@
             </ul>
         </footer>
     </div>
-    <!-- <script src="js/"></script> -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeHUqcLGc0nhBXXpzbJFpcAkSyzzhEZ90&callback=initMap"></script>
+    <script src="js/map.js"></script>
 </body>
 
 </html>
