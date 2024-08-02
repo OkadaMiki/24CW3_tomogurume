@@ -15,6 +15,7 @@ html,body{
     height: 100%;
 }
 body{
+    height: 100%;
     font-family: "Zen Maru Gothic", serif;
     font-weight: 400;
     color: var(--font);
