@@ -5,6 +5,7 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 16,
         center: location,
+        disableDefaultUI: true,
     });
     // マーカーを表示
     const marker = new google.maps.Marker({
