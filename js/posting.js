@@ -49,14 +49,15 @@ document.querySelector(".reviewForm").addEventListener("submit", (event) => {
     Promise.all(readerPromises)
         .then(() => {
             // 口コミデータをローカルストレージに保存
-            let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
-            reviews.push({
+            let cw3reviews =
+                JSON.parse(localStorage.getItem("cw3reviews")) || [];
+            cw3reviews.push({
                 placeName,
                 userName,
                 review,
                 images: imageUrls,
             });
-            localStorage.setItem("reviews", JSON.stringify(reviews));
+            localStorage.setItem("cw3reviews", JSON.stringify(cw3reviews));
 
             // フォームをリセット
             document.querySelector(".reviewForm").reset();
